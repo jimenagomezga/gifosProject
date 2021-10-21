@@ -1,0 +1,25 @@
+nav.containerNavbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100px;
+  padding: 22px 68px 0 79px;
+}
+
+button.boton {
+  width: 148px;
+  height: 43px;
+  border: 1px solid #6809e1;
+  border-radius: 61px;
+  color: #6809e1;
+  background: #ffffff;
+  font-weight: 700;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.dark button.boton {
+  border: 1px solid #ffffff;
+  background: #373737;
+  color: #ffffff;
+}

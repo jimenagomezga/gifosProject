@@ -1,0 +1,12 @@
+div.headerContenedor {
+  display: flex;
+  flex-direction: column;
+  width: 900px;
+  height: 587px;
+  border: 1px solid #e8e8e8;
+  margin-top: 4px;
+}
+
+.dark h1.tituloResultados {
+  color: #ffffff;
+}

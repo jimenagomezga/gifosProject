@@ -1,0 +1,49 @@
+div.contenedorResultados {
+  background-color: #e7e7e7;
+  display: flex;
+  flex-wrap: wrap;
+  width: 900px;
+  justify-content: center;
+  padding-right: 28px;
+  padding-top: 55px;
+}
+
+.dark div.contenedorResultados {
+  background-color: #212121;
+}
+
+.contedorMensajeBusqueda {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.tituloResultados {
+  margin: 79px 0 31px 0;
+  font-weight: 400;
+  font-size: 24px;
+  color: #572ee5;
+}
+
+.tituloBusqueda {
+  margin: 120px 0 120px 0;
+  font-weight: 400;
+  font-size: 24px;
+  color: #572ee5;
+}
+
+.dark .tituloBusqueda {
+  color: #ffffff;
+}
+
+.textoError {
+  margin: 10px 0 100px 0;
+  font-weight: 400;
+  font-size: 24px;
+  color: #572ee5;
+}
+
+.dark .textoError {
+  color: #ffffff;
+}
