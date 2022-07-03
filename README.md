@@ -7,4 +7,4 @@ Giphy.com, a, http: //giphy.com/ ,, working with asynchronism and taking advanta
 tools such as obtaining images.
 
 
-gifosprojectapp.netlify.app
+https://gifosprojectapp.netlify.app/
