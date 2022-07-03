@@ -1,4 +1,6 @@
 import "../../../Styles/NavBar.css";
+import logoMobileNoct from "../../../images/logo-mobile-modo-noct.svg";
+import logoMobile from "../../../images/logo-desktop.svg";
 
 export default function NavBar(props) {
   return (
@@ -6,18 +8,13 @@ export default function NavBar(props) {
       <div>
         {props.darkMode === true ? (
           <img
-            src="./images/logo-mobile-modo-noct.svg"
+            src={logoMobileNoct}
             alt="logoligth"
             width="60px"
             height="60px"
           />
         ) : (
-          <img
-            src="./images/logo-desktop.svg"
-            alt="logodark"
-            width="60px"
-            height="60px"
-          />
+          <img src={logoMobile} alt="logodark" width="60px" height="60px" />
         )}
       </div>
       <button className="boton" onClick={props.setDarkMode}>

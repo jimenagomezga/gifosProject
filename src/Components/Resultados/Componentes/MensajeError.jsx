@@ -1,6 +1,6 @@
 import React from "react";
 import Lottie from "react-lottie";
-import animationData2 from "../../../../public/images/lotties/404-Error.json";
+import animationData2 from "../../../images/lotties/404-Error.json";
 
 export default function MensajeError() {
   const defaultOptions2 = {
@@ -8,8 +8,8 @@ export default function MensajeError() {
     autoplay: true,
     animationData: animationData2,
     rendererSettings: {
-      preserveAspectRatio: "xMidYMid slice"
-    }
+      preserveAspectRatio: "xMidYMid slice",
+    },
   };
   return (
     <h1 className="textoError">

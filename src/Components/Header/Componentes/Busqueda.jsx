@@ -5,8 +5,10 @@ import {
   URLAPI,
   KEYAPI,
   RESOURCES,
-  LIMITS
+  LIMITS,
 } from "../../../Utilities/Constants";
+import ilustracionHeader from "../../../images/ilustra_header.svg";
+import lupaIcon from "../../../images/icon-search-mod-noc.svg";
 
 const searchUrl = `${URLAPI}${RESOURCES.search}?api_key=${KEYAPI}`;
 
@@ -77,11 +79,7 @@ export default function Busqueda({ setGif }) {
       <h1 className="tituloPrincipal">
         ¡Inspirate y busca los mejores <strong>GIFS!</strong>
       </h1>
-      <img
-        src="./images/ilustra_header.svg"
-        alt="ilustracionheader"
-        width="399px"
-      />
+      <img src={ilustracionHeader} alt="ilustracionheader" width="399px" />
       <div className="barraDeBusqueda">
         <input
           type="text"
@@ -107,11 +105,7 @@ export default function Busqueda({ setGif }) {
           </ul>
         </div>
         <button onClick={handleSubmit}>
-          <img
-            className="iconoLupa"
-            src="./images/icon-search-mod-noc.svg"
-            alt="iconoSearch"
-          />
+          <img className="iconoLupa" src={lupaIcon} alt="iconoSearch" />
         </button>
       </div>
     </header>
